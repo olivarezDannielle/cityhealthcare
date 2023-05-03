@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(to right top, #055b25, #0c8579, #6bacbb, #c1d2e3, #ffffff);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer{
+    z-index: 1;
+    width: 80%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.title{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.form{
+    width: 30%;
+    height: 50%;
+    background-color: #055b25;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputs input{
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
